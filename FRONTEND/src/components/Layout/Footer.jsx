@@ -8,7 +8,7 @@ const Footer = () => {
   const { isAuthorized } = useContext(Context);
   return (
     <footer className={isAuthorized ? "footerShow" : "footerHide"}>
-      <div>&copy; All Rights Reserved By JobCradle.</div>
+      <div>&copy; All Rights Reserved By JobXpress.</div>
       <div>
         <Link to={"https://www.facebook.com/people/Jai-Prakash/pfbid05n27tnqwjwyt93JqLS2d7uvUqdefz1yNAQTqf4TDc2zVCwHadsg4yqGUjvDidXaXl/?rdid=WnSx7vc01GU7f37q&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1647pHSCZq%2F"} target="_blank">
           <FaFacebookF />
