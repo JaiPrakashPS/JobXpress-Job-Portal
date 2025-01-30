@@ -10,7 +10,6 @@ const MyJobs = () => {
   const [myJobs, setMyJobs] = useState([]);
   const [editingMode, setEditingMode] = useState(null);
   const { isAuthorized, user } = useContext(Context);
-
   const navigateTo = useNavigate();
   //Fetching all jobs
   useEffect(() => {

@@ -32,7 +32,7 @@ const Application = () => {
     formData.append("coverLetter", coverLetter);
     formData.append("resume", resume);
     formData.append("jobId", id);
-
+console.log(formData)
     try {
       const { data } = await axios.post(
         "http://localhost:4000/api/v1/application/post",
